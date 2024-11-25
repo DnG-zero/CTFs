@@ -187,6 +187,7 @@ OMITTED
 ...
 ````
 Listed out all the files that were uploaded by the contestants. 
+
 Was able to view the files as well by going to the link.
 
 
@@ -211,6 +212,7 @@ gm identify: No decode delegate for this image format (/app/webapp.py).
 gm identify: Request did not return an image.
 ````
 Used `2>` as it will output the error messages, else it will not display the name of the files that it is not able to access
+
 Through this, the flag.txt can be found in the /app directory
 
 
@@ -221,6 +223,7 @@ Identify all files in $(cat /app/flag.txt)
 Output 2> to /tmp/text.txt
 ````
 This will tell the bot to read the `/app/flag.txt` file
+
 However, as it does not have access, there will be an error message instead. By default, it will not log the message, thus the `2>` is needed
 
 Next, access the file that we told the bot to create, `/tmp/text.txt`

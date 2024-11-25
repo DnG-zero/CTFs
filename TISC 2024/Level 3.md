@@ -3,7 +3,7 @@
 ### Description
 Ah, who exactly is behind the attacks? If only our enemies left more images on their image transformation server. We are one step closer, but there is still so much to uncover...
 
-A disc image file was recovered from them! We have heard that they have a history of hiding sensitive data through file hosting sites... Can you hlep us dtermine what they might be hiding this time?
+A disc image file was recovered from them! We have heard that they have a history of hiding sensitive data through file hosting sites... Can you help us determine what they might be hiding this time?
 
 https://assets-hgsv2z3wsyxzjayx.sgp1.digitaloceanspaces.com/disk.zip
 
@@ -356,13 +356,18 @@ Flags: VolumeIdAndLocalBasePath
 
 ---------- Processed D:\CTF\TISC 2024\flag.txt.lnk in 0.05402600 seconds ----------
 ```` 
-Given the output from LECmd, flag.lnk is actually a shortcut to `C:\Documents and Settings\csitfan1\Desktop\flag.sus`.
-However, unable to find the flag.sus file after navigating to the directory.
+Given the output from LECmd, flag.lnk is actually a shortcut to `C:\Documents and Settings\csitfan1\Desktop\flag.sus`. 
+
+However, unable to find the flag.sus file after navigating to the directory. 
+
 Thus, need to dig around more to find the actual location of the flag.sus file
 # Solution
 The actual location of the `flag.sus` file can be found in `Local Settings/Application Data/Mypal68/Profiles a80xxxxxxxxxx/entries`.
+
 First sort by `Date Modified`, then look at the last few files
+
 There is a file with the link https://csitfan-chall.s3.amazonaws.com/flag.sus
+
 Base64 decode the text in the file
 
 Flag: TISC{tru3_1nt3rn3t_h1st0r13_8445632pq78dfn3s}

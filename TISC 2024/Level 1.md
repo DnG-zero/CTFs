@@ -10,7 +10,7 @@ Amidst the clandestine realm of cyber warfare, intelligence sources have uncover
 
 Recent breakthroughs have unveilved **Vivoxanderith's online persona: vi_vox_223**. This revelation marks a pivotal advancement in our pursuit, offering a significant lead towards identifying and neutralizing this threat.
 
-Our mission now reuqires a meticulous investigation into **vi_vox223**'s activities and connections within the cyber underworld. Identifying and tracking Vivoxanderith brings us one crucial step closer to uncovering the source of the attack and restoring stability to our systems. It is up to you, agent!
+Our mission now requiires a meticulous investigation into **vi_vox223**'s activities and connections within the cyber underworld. Identifying and tracking Vivoxanderith brings us one crucial step closer to uncovering the source of the attack and restoring stability to our systems. It is up to you, agent!
 
 # Solution
 
@@ -87,13 +87,16 @@ Add in the coordinates that was found in the Update_030624.eml
 ![alt text](image.png)
 
 Find the location on Google maps.
+
 The location is: **Quercia Secolare**
 
 There's also a Linkedin profile that was mentioned in the Update_030624.eml file
 https://www.linkedin.com/company/the-book-lighthouse
-Under the profile's posts, there will be a link to a Telegram bot
+
+Under the profile's posts, there's a link to a Telegram bot
 ![alt text](image-1.png)
 https://lnkd.in/g6F6MSgu
+
 Then give the location `Quercia Secolare` to the bot
 
 Flag: TISC{OS1N7_Cyb3r_InV35t1g4t0r_uAhf3n}
